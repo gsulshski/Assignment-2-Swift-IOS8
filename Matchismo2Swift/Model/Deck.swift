@@ -2,7 +2,7 @@
 //  Deck.swift
 //  MatchismoSwift
 //
-//  Created by Tatiana Kornilova on 6/9/14.
+//  Created by Tatiana Kornilova on 6/9/14. 
 //  Copyright (c) 2014 Tatiana Kornilova. All rights reserved.
 //
 
