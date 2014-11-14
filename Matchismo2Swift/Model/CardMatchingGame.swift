@@ -1,6 +1,6 @@
 //
 //  CardMatchingGame.swift
-//  Matchismo2Swift
+//  Matchismo2Swift 
 //
 //  Created by Tatiana Kornilova on 6/14/14.
 //  Copyright (c) 2014 Tatiana Kornilova. All rights reserved.
