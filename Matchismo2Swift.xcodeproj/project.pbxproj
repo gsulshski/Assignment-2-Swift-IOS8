@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06201AEA1A1AD59A0082B14B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5FD9D194C845900A76465 /* Card.swift */; };
+		06201AEB1A1AD59F0082B14B /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5FD9E194C845900A76465 /* Deck.swift */; };
+		06201AEC1A1AD5A40082B14B /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5FDA1194C845900A76465 /* PlayingCard.swift */; };
+		06201AED1A1AD5A80082B14B /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5FDA2194C845900A76465 /* PlayingCardDeck.swift */; };
+		06201AEE1A1AD5AC0082B14B /* CardMatchingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5FDAB194C9BFE00A76465 /* CardMatchingGame.swift */; };
+		06201AEF1A1AD5B20082B14B /* PadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5FDAF194D813C00A76465 /* PadView.swift */; };
+		06201AF01A1AD5B60082B14B /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E27904194DFEE00047647C /* Grid.swift */; };
+		06201AF11A1AD5BB0082B14B /* CardGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5FDA9194C84B100A76465 /* CardGameViewController.swift */; };
+		06201AF21A1AD5C40082B14B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5FD7F194C800B00A76465 /* AppDelegate.swift */; };
+		06201AF31A1AD8EA0082B14B /* Matchismo2SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5FD92194C800B00A76465 /* Matchismo2SwiftTests.swift */; };
+		0697FC841A1E046400EC4DF6 /* Matchismo2SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5FD92194C800B00A76465 /* Matchismo2SwiftTests.swift */; };
 		E4A5FD80194C800B00A76465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5FD7F194C800B00A76465 /* AppDelegate.swift */; };
 		E4A5FD85194C800B00A76465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A5FD83194C800B00A76465 /* Main.storyboard */; };
 		E4A5FD87194C800B00A76465 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A5FD86194C800B00A76465 /* Images.xcassets */; };
-		E4A5FD93194C800B00A76465 /* Matchismo2SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5FD92194C800B00A76465 /* Matchismo2SwiftTests.swift */; };
 		E4A5FDA3194C845900A76465 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5FD9D194C845900A76465 /* Card.swift */; };
 		E4A5FDA4194C845900A76465 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5FD9E194C845900A76465 /* Deck.swift */; };
 		E4A5FDA7194C845900A76465 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5FDA1194C845900A76465 /* PlayingCard.swift */; };
@@ -241,6 +251,7 @@
 			files = (
 				E4A5FDA4194C845900A76465 /* Deck.swift in Sources */,
 				E4A5FDA3194C845900A76465 /* Card.swift in Sources */,
+				06201AF31A1AD8EA0082B14B /* Matchismo2SwiftTests.swift in Sources */,
 				E4E27905194DFEE00047647C /* Grid.swift in Sources */,
 				E4A5FDA8194C845900A76465 /* PlayingCardDeck.swift in Sources */,
 				E4A5FDA7194C845900A76465 /* PlayingCard.swift in Sources */,
@@ -255,7 +266,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4A5FD93194C800B00A76465 /* Matchismo2SwiftTests.swift in Sources */,
+				06201AEE1A1AD5AC0082B14B /* CardMatchingGame.swift in Sources */,
+				06201AEB1A1AD59F0082B14B /* Deck.swift in Sources */,
+				0697FC841A1E046400EC4DF6 /* Matchismo2SwiftTests.swift in Sources */,
+				06201AF01A1AD5B60082B14B /* Grid.swift in Sources */,
+				06201AED1A1AD5A80082B14B /* PlayingCardDeck.swift in Sources */,
+				06201AEC1A1AD5A40082B14B /* PlayingCard.swift in Sources */,
+				06201AEF1A1AD5B20082B14B /* PadView.swift in Sources */,
+				06201AF11A1AD5BB0082B14B /* CardGameViewController.swift in Sources */,
+				06201AF21A1AD5C40082B14B /* AppDelegate.swift in Sources */,
+				06201AEA1A1AD59A0082B14B /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,8 +383,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = Matchismo2Swift/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(PLATFORM_DIR)/Developer/Library/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -374,8 +395,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = Matchismo2Swift/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(PLATFORM_DIR)/Developer/Library/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -387,6 +409,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -407,6 +430,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				INFOPLIST_FILE = Matchismo2SwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

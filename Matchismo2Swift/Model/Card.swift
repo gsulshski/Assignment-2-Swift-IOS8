@@ -9,12 +9,12 @@
 import Foundation
 
 //class representing card.
-class Card{
-    var contents: String
-    var isChosen: Bool = false
-    var isMatched:Bool = false
+public class Card{
+    public var contents: String
+    public var isChosen: Bool = false
+    public var isMatched:Bool = false
     
-    init(contents:String) {
+    public init(contents:String) {
         self.contents = contents
     }
     
