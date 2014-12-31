@@ -38,6 +38,18 @@ class Matchismo2SwiftTests: XCTestCase {
            //      XCTAssertEqual(self.testcards, "")
     }
     
+    func testCheck_Card2() {
+        //  1)  Create and validate three generic cards
+        //  2)  Do a match on the cards and check score
+        //  3)  Don't do a match on the cars and check score
+        
+        //self.testcards.description("ace")
+        
+        
+        
+        //      XCTAssertEqual(self.testcards, "")
+    }
+    
      func testCheck_Deck() {
 
   //  1)  create a deck of four generic cards by using addCard()
